@@ -16,7 +16,7 @@ public class BrowserLaunch {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
 		driver.get("https://www.facebook.com/");
-		
+	//	/ggsygysg
 // Login
 	WebElement user = driver.findElement(By.id("email"));
 	user.sendKeys("Harry");
